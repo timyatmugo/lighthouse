@@ -24,10 +24,10 @@ sh run.sh
 ### [Lighthouse-CI](https://github.com/GoogleChrome/lighthouse-ci) 
 - A dashboard of historical report scores
 - Generate lighthouse report via CI. 
-- We don't use CI, but we can use a script to trigger manually. 
+- We don't use CI, but we can probably use a script to trigger manually. 
 
 ## [Auto-lighthouse](https://github.com/TGiles/auto-lighthouse)
-- a crawling version of the lighthouse 
+- a crawling version of the Lighthouse 
 
 ## An additional helpful feature of headless chromium
 - Generate PDF, screenshot, etc. 
