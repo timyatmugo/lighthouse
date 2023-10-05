@@ -1,6 +1,13 @@
 # lighthouse
 I have read Lighthouse and understand how Lighthouse could help a web project.
 
+Setup and Run the demo
+
+```
+npm install
+sh run.sh
+```
+
 ## There are a few interesting projects listed in the lighthouse repo.
 https://github.com/GoogleChrome/lighthouse#related-projects
 
@@ -19,6 +26,8 @@ https://timyatmugo.github.io/lighthouse/report/lighthouse/www_mugo_ca_.report.js
 - Generate lighthouse report via CI. 
 - We don't use CI, but we can use a script to trigger manually. 
 
+## Auto-lighthouse https://github.com/TGiles/auto-lighthouse
+- a crawling version of lighthouse 
 
 ## An additional helpful feature of headless chromium
 - Generate PDF, screenshot, etc. 
