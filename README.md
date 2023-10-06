@@ -32,11 +32,12 @@ I have read Lighthouse and understand how Lighthouse could help a web project.
    ```
   2. visit [http://localhost:9001/app/projects/demo/dashboard](http://localhost:9001/app/projects/demo/dashboard)
   3. demo token
-  ```
-  Created project demo (06cb83bd-c8ef-45cd-abb6-6cc3934d140c)!
-Use build token d85f06b9-3f79-4a1a-ae55-8430a615e6ad to add data.
-Use admin token RlrL4vUqF2XqPnuSysab5lK4yiZXbJloVdsbixYL to manage data. KEEP THIS SECRET!
-  ```
+   ```
+    Created project demo (06cb83bd-c8ef-45cd-abb6-6cc3934d140c)!
+    Use build token d85f06b9-3f79-4a1a-ae55-8430a615e6ad to add data.
+    Use admin token RlrL4vUqF2XqPnuSysab5lK4yiZXbJloVdsbixYL to manage data. KEEP THIS SECRET!
+   ```
+
 ## [Auto-lighthouse](https://github.com/TGiles/auto-lighthouse)
 - a crawling version of the Lighthouse 
 
