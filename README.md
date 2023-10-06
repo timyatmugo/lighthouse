@@ -28,7 +28,7 @@ I have read Lighthouse and understand how Lighthouse could help a web project.
   1. setup and run:
    ```
    docker-compose up --build
-   git commit --allow-empty -m "Lighthouse run" && npx lhci autoru
+   git commit --allow-empty -m "Lighthouse run" && npx lhci autorun
    ```
   2. visit [http://localhost:9001/app/projects/demo/dashboard](http://localhost:9001/app/projects/demo/dashboard)
 ## [Auto-lighthouse](https://github.com/TGiles/auto-lighthouse)
