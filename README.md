@@ -1,12 +1,7 @@
 # lighthouse
 I have read Lighthouse and understand how Lighthouse could help a web project.
 
-Setup and Run the demo
 
-```
-npm install
-sh run.sh
-```
 
 ## There are a few interesting projects listed in the lighthouse repo.
 [https://github.com/GoogleChrome/lighthouse#related-projects](https://github.com/GoogleChrome/lighthouse#related-projects)
@@ -18,14 +13,24 @@ sh run.sh
 - Generate individual reports with different formats. (JSON, HTML)
   - [Report](https://timyatmugo.github.io/lighthouse/report/lighthouse/www_mugo_ca_.report.html)
   - [JSON](https://timyatmugo.github.io/lighthouse/report/lighthouse/www_mugo_ca_.report.json)
-
+- Setup and Run the demo
+  ```
+  npm install
+  sh run.sh
+  ```
 
  
 ### [Lighthouse-CI](https://github.com/GoogleChrome/lighthouse-ci) 
 - A dashboard of historical report scores
 - Generate lighthouse report via CI. 
 - We don't use CI, but we can probably use a script to trigger manually. 
-
+- Demo:
+  1. setup and run:
+   ```
+   docker-compose up --build
+   git commit --allow-empty -m "Lighthouse run" && npx lhci autoru
+   ```
+  2. visit [http://localhost:9001/app/projects/demo/dashboard](http://localhost:9001/app/projects/demo/dashboard)
 ## [Auto-lighthouse](https://github.com/TGiles/auto-lighthouse)
 - a crawling version of the Lighthouse 
 
